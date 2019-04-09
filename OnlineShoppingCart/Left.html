@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>flyout-竖向三级弹出菜单</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+<body>
+<h1 class="animated flip">Welcome To Grocery Store!</h1>
+<div class="menu animated swing">
+    <ul>
+        <li class='hide'><a href='#'>Frozen Food</a>
+            <ul>
+                <li><a href='show_products.php?product_id=1002' target="top_right">Hambuger Patties</a></li>
+                <li class='has-sub'><a href='#'>Fish Fingers</a>
+                    <ul>
+                        <li><a href='show_products.php?product_id=1000' target="top_right">500 Gram</a></li>
+                        <li><a href='show_products.php?product_id=1001' target="top_right">1000 Gram</a></li>
+                    </ul>
+                </li>
+                <li><a href='show_products.php?product_id=1003' target="top_right">Shellew Prawns</a></li>
+                <li class='has-sub'><a href='#'>Tub Ice Cream</a>
+                    <ul>
+                        <li><a href='show_products.php?product_id=1004' target="top_right">1 Litre</a></li>
+                        <li><a href='show_products.php?product_id=1005' target="top_right">2 Litre</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class='has-sub'><a href='#'>Fresh Food</a>
+            <ul>
+                <li><a href='show_products.php?product_id=3002' target="top_right">T-Bone Steak</a></li>
+                <li class="has-sub"><a href='#'>Cheddar Cheese</a>
+                    <ul>
+                        <li><a href='show_products.php?product_id=3000' target="top_right">500 Gam</a></li>
+                        <li><a href='show_products.php?product_id=3001' target="top_right">1000 Gam</a></li>
+                    </ul>
+                </li>
+                <li><a href='show_products.php?product_id=3003' target="top_right">Navel Oranges</a></li>
+                <li><a href='show_products.php?product_id=3004' target="top_right">Bananas</a></li>
+                <li><a href='show_products.php?product_id=3006' target="top_right">Grapes</a></li>
+                <li><a href='show_products.php?product_id=3007' target="top_right">Apples</a></li>
+                <li><a href='show_products.php?product_id=3005' target="top_right">Peaches</a></li>
+            </ul>
+        </li>
+        <li class="has-sub"><a href='#'>Beverages</a>
+            <ul>
+                <li class="has-sub"><a href='#'>Coffee</a>
+                    <ul>
+                        <li><a href='show_products.php?product_id=4003' target="top_right">200 gram</a></li>
+                        <li><a href='show_products.php?product_id=4004' target="top_right">500 gram</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub"><a href='#'>Earl Grey Tea Bags</a>
+                    <ul>
+                        <li><a href='show_products.php?product_id=4000' target="top_right">Pack 25</a></li>
+                        <li><a href='show_products.php?product_id=4001' target="top_right">Pack 100</a></li>
+                        <li><a href='show_products.php?product_id=4002' target="top_right">Pack 200</a></li>
+                    </ul>
+                </li>
+                <li><a href='show_products.php?product_id=4005' target="top_right">Chocolate</a></li>
+            </ul>
+        </li>
+        <li class="has-sub"><a href='#'>Home Health</a>
+            <ul>
+                <li><a href='show_products.php?product_id=2002' target="top_right">Bath soap</a></li>
+                <li class="has-sub"><a href='#'>Panadol</a>
+                    <ul>
+                        <li><a href='show_products.php?product_id=2000' target="top_right">Pack 24</a></li>
+                        <li><a href='show_products.php?product_id=2001' target="top_right">Bottle 50</a></li>
+                     </ul>
+                </li>
+                <li><a href='show_products.php?product_id=2005' target="top_right">Washing Powder</a></li>
+                <li><a href='#'>Garbage Bags</a>
+                    <ul>
+                        <li><a href='show_products.php?product_id=2003' target="top_right">Small (pack 10)</a></li>
+                        <li><a href='show_products.php?product_id=2004' target="top_right">Large (pack 50)</a></li>
+                    </ul>
+                </li>
+                <li><a href='show_products.php?product_id=2006' target="top_right">Laundry Bleach</a></li>
+            </ul>
+        </li>
+        <li class="has-sub"><a href='#'>Pet Food</a>
+            <ul>
+                <li><a href='show_products.php?product_id=5002' target="top_right">Bird Food</a></li>
+                <li><a href='show_products.php?product_id=5003' target="top_right">Cat Food</a></li>
+                <li class="has-sub"><a href='#'>Dry Dog Food</a>
+                    <ul>
+                        <li><a href='show_products.php?product_id=5001' target="top_right">1kg .Pack</a></li>
+                        <li><a href='show_products.php?product_id=5000' target="top_right">5kg .Pack</a></li>
+                    </ul>
+                </li>
+                <li><a href='show_products.php?product_id=5004' target="top_right">Fish Food</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
